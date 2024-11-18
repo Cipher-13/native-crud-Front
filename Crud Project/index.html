@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <section class="product">
+        <div class="container">
+            <center><h1 class="my-3">Product</h1></center>
+
+            <label for="">Product Name</label>
+            <input type="text" class="form-control mb-4" id="productName">
+
+            <label for="">Product Price</label>
+            <input type="text" class="form-control mb-4" id="productPrice">
+
+            <label for="">Product Desc</label>
+            <input type="text" class="form-control mb-4" id="productDesc">
+
+
+            <label for="">Product Category</label>
+            <input type="text" class="form-control mb-4" id="productCategory">
+
+            <div class="BTNS d-flex gap-3">
+                <button onclick="addProduct()" class="btn btn-info mt-2" id="AddApperance">Add Product</button>
+                <button class="btn btn-info mt-2 " id="UpdateApperance">Update</button>
+                <button onclick="deleteAll()" class="btn btn-danger mt-2"  id="DeleteAll">Delete All</button>
+
+            </div>
+
+            <table class="table mt-5 table-bordered text-center">
+                <thead class="bg-dark">
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Product Desc</th>
+                    <th>Product Category</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <input type="text"
+    class="form-control w-25 m-3"
+    id="userName">
+   
+
+    <button class="btn btn-info">
+        Click
+    </button> -->
+
+
+    <!-- <h1 id="demo"></h1>
+
+    <button class="btn btn-info" onclick="getHello()">
+        Click
+    </button> -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
